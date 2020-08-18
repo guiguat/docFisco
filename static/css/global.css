@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+:root{
+  font-size: 60%;
+  --primary: #1595BE;
+  --primary-hover: #056E8F;
+  --primary-dark:#035061;
+  --primary-dark-hover: #062E45;
+  --light: #F0F0F7;
+  --dark: #1C2227;
+  --text-secondary: #4D4D4D;
+  --shadow: rgba(16, 126, 227, 0.21);
+  --input-border:#D0D0D0;
+  --border-radius-btn: .5rem;
+  font-family: Poppins, sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  height: 100vh;
+}
+
+body{
+  background: white;
+}
+
+#root{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body, input, button, textarea{
+  font: 500 1.6rem Poppins;
+  color: var(--dark);
+}
+
+.container{
+  width: 90vw;
+  max-width: 700px;
+}
+
+.btn{
+  background: none;
+  border: 0;
+  color: var(--primary);
+  font: 700 1.6rem Poppins;
+  cursor: pointer;
+  text-decoration: none;
+  transition: color 0.2s;
+  text-align: center;
+}
+.btn:hover{
+  color: var(--primary-hover);
+}
+
+.btn-dark{
+  min-width: 2.52rem;
+  min-height: 5rem;
+  background: var(--primary-dark);
+  color: white;
+  box-shadow: 0rem 0rem 1.2rem .2rem var(--shadow);
+  border-radius: var(--border-radius-btn);
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+}
+.btn-dark:hover{
+  background: var(--primary-dark-hover);
+  color: white;
+}
+
+.btn-primary{
+  min-width: 1.75rem;
+  min-height: 5.6rem;
+  color: white;
+  background: var(--primary);
+  box-shadow: 0rem 0rem 1.2rem .2rem var(--shadow);
+  border-radius: var(--border-radius-btn);
+  font-size: 2.4rem;
+  line-height: 3.6rem;
+  padding: 1.5rem 6rem;
+}
+.btn-primary:hover{
+  background: var(--primary-hover);
+  color: white;
+}
+
+@media (min-width: 700px){
+  :root{
+    font-size: 62.5%;
+  }
+}
