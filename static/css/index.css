@@ -180,9 +180,9 @@ footer .content h3 {
 @media (max-width: 700px) {
   header {
     max-height: 100%;
-    overflow: visible;
     background: var(--primary);
-    color: white
+    color: white;
+    overflow: visible;
   }
 
   header .wrapper {
@@ -224,7 +224,9 @@ footer .content h3 {
 
   main {
     max-height: 100%;
-    margin: 8rem 0rem
+    margin: 12rem 0rem;
+    overflow: visible;
+    flex-direction: column;
   }
 
   main .container .row {
