@@ -67,6 +67,7 @@ body, input, button, textarea{
   border-radius: var(--border-radius-btn);
   font-size: 1.8rem;
   line-height: 2.7rem;
+  padding: 1.5rem 0rem;
 }
 .btn-dark:hover{
   background: var(--primary-dark-hover);
@@ -82,7 +83,7 @@ body, input, button, textarea{
   border-radius: var(--border-radius-btn);
   font-size: 2.4rem;
   line-height: 3.6rem;
-  padding: 1.5rem 6rem;
+  padding: 1.5rem 0rem;
 }
 .btn-primary:hover{
   background: var(--primary-hover);
