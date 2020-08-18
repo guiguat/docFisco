@@ -1,0 +1,33 @@
+.input-group{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0;
+  margin: 2rem 0rem;
+}
+.input-group label{
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  line-height: 2.7rem;
+  color: var(--text-secondary)
+}
+.input-group input{
+  background: white;
+  border: 1px solid var(--input-border);
+  box-sizing: border-box;
+  border-radius: .4rem;
+  color: var(--dark);
+  padding: .2rem 1.6rem;
+  width: 100%;
+  height: 5.6rem;
+  font: 1.6rem Poppins;
+}
+form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  background: var(--light);
+}
